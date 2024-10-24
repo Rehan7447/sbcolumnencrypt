@@ -1,15 +1,15 @@
 package demo.ColumnEncryption.Data;
 
 import demo.ColumnEncryption.Enums.UserEnums;
+import demo.ColumnEncryption.config.AesEncrypter;
 import jakarta.persistence.*;
 import lombok.*;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Setter
 @Getter
+@Setter
 @Table(name = "tbl_user")
 public class User {
 
@@ -18,6 +18,8 @@ public class User {
     private Integer id;
 
     private String username;
+
+    @Convert(converter = AesEncrypter.class)
     private String password;
 
     @Column(unique = true)
