@@ -1,6 +1,6 @@
-package demo.ColumnEncryption.Model;
+package ApiDocs.Model;
 
-import demo.ColumnEncryption.Enums.UserEnums;
+import ApiDocs.Enums.UserEnums;
 
 public class UserCreateRequest {
     public String username;

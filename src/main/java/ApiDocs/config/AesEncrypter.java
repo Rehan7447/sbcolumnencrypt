@@ -1,10 +1,9 @@
-package demo.ColumnEncryption.config;
+package ApiDocs.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.AttributeConverter;
 import lombok.SneakyThrows;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.util.SerializationUtils;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -17,10 +16,10 @@ import java.util.Base64;
 public class AesEncrypter implements AttributeConverter<Object, String> {
 
     // can be 8, 12 or 16 characters long
-    private final String encryptionKey = "ThisIsASecretKey";
+    private final String encryptionKey = "kh!f90as-jk5@m27";
 
+//    private final String encryptionCypher = "AES";
     private final String encryptionCypher = "AES";
-
     private Key key;
     private Cipher cipher;
 

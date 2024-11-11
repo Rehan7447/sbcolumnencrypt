@@ -1,14 +1,11 @@
-package demo.ColumnEncryption.Controller;
+package ColumnEncrypt.Controller;
 
-import demo.ColumnEncryption.Data.User;
-import demo.ColumnEncryption.Model.UserCreateRequest;
-import demo.ColumnEncryption.Repository.UserRepository;
-import demo.ColumnEncryption.Service.UserService;
+import ColumnEncrypt.Data.User;
+import ColumnEncrypt.Model.UserCreateRequest;
+import ColumnEncrypt.Service.UserService;
 import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/user")

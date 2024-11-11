@@ -1,4 +1,4 @@
-package demo.ColumnEncryption;
+package ApiDocs;
 
 import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
 import org.springframework.boot.SpringApplication;

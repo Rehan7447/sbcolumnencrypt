@@ -1,9 +1,12 @@
-package demo.ColumnEncryption.Data;
+package ApiDocs.Data;
 
-import demo.ColumnEncryption.Enums.UserEnums;
-import demo.ColumnEncryption.config.AesEncrypter;
+import ApiDocs.Enums.UserEnums;
+import ApiDocs.config.AesEncrypter;
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @NoArgsConstructor

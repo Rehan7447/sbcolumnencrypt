@@ -1,8 +1,8 @@
-package demo.ColumnEncryption.Service;
+package ColumnEncrypt.Service;
 
-import demo.ColumnEncryption.Data.User;
-import demo.ColumnEncryption.Model.UserCreateRequest;
-import demo.ColumnEncryption.Repository.UserRepository;
+import ColumnEncrypt.Model.UserCreateRequest;
+import ColumnEncrypt.Data.User;
+import ColumnEncrypt.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

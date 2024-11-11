@@ -1,6 +1,6 @@
-package demo.ColumnEncryption.Repository;
+package ApiDocs.Repository;
 
-import demo.ColumnEncryption.Data.User;
+import ApiDocs.Data.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
