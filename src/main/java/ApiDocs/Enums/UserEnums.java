@@ -10,4 +10,10 @@ public class UserEnums {
         UN_RE_KNOWN,
         NOT_SPECIFIED
     }
+
+    public enum DocumentationGender {
+        MALE,
+        FEMALE,
+        OTHER,
+    }
 }
